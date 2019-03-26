@@ -1,0 +1,147 @@
+/*
+Font: font-family: 'Montserrat', sans-serif;
+
+Border Color: #34508b
+Background Color: #e8fcfa
+Background Navbar: #c7eae4
+Yellow: #ffd3a2
+GreenTxt: #93ba86
+
+*/
+
+/* GLOBAL */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color:#34508b;
+    background-color: #e8fcfa;
+}
+
+.solarisContainer {
+    width: 100%;
+    padding: 0;
+}
+
+/* HEADER */
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    color: #ffd3a2;
+}
+.solarisNav {
+    width: 100%;
+    margin: 0 !important;
+    background-color: #c7eae4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.solarisUl li {
+    border: 3px solid #34508b;
+    border-radius: 35px/30px;
+    width: 120px;
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 6px;
+    background-color: white;
+}
+
+.solarisUl li:hover{
+    border: 3px solid #1e3e8b;
+}
+
+.solarisUl li a{
+    padding: 5px 15px 5px 15px;
+    border-radius: 35px/30px;
+    background-color: transparent !important;
+}
+
+.solarisBrand {
+    padding-top: 3px;
+}
+
+/* CONTACT */
+
+.contactTitle {
+    font-family: 'Montserrat:800', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    padding: 50px;
+    font-size: 42px;
+
+}
+
+.contactInfo {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 100 !important;
+    font-size: 22px;
+    color: #93ba86;
+    padding: 50px;
+}
+
+/* CONTACT FORM */
+.contactForm {
+    font-family: 'Montserrat', sans-serif;
+    color: #34508b;
+    padding: 0px 50px 0px 50px;
+}
+
+.contactForm input{
+    width: 100%;
+    border-radius: 35px/30px;
+    border: 3px solid #34508b;
+    background-color: white;
+    font-family: 'Montserrat:500', sans-serif;
+    margin-bottom: 30px;
+    padding: 10px 15px 10px 15px;
+    font-size: 18px;
+}
+
+.contactForm input::placeholder {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #34508b;
+}
+
+.contactForm textarea::placeholder {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #34508b;
+}
+
+.contactForm textarea {
+    width: 100%;
+    border-radius: 35px/30px;
+    border: 3px solid #34508b;
+    background-color: white;
+    font-family: 'Montserrat:500', sans-serif;
+    margin-bottom: 30px;
+    resize: none;
+    padding: 10px 15px 10px 15px;
+    font-size: 18px;
+}
+
+.contactForm button {
+    border-radius: 35px/30px;
+    border: 3px solid #34508b;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    padding: 2px 20px 2px 20px;
+}
+/* FOOTER */
+
+.footer {
+    background-color: #c7eae4;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.footer img {
+    margin-right: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+}

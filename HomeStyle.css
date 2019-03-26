@@ -1,0 +1,571 @@
+/*
+Font: font-family: 'Montserrat', sans-serif;
+
+Border Color: #34508b
+Background Color: #e8fcfa
+Background Navbar: #c7eae4
+Yellow: #ffd3a2
+GreenTxt: #93ba86
+
+*/
+
+/* GLOBAL */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color:#34508b;
+    background-color: #e8fcfa;
+}
+
+.solarisContainer {
+    width: 100%;
+    padding: 0;
+}
+
+/* HEADER */
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    color: #ffd3a2;
+}
+.solarisNav {
+    width: 100%;
+    margin: 0 !important;
+    background-color: #c7eae4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.solarisUl li {
+    border: 3px solid #34508b;
+    border-radius: 35px/30px;
+    width: 120px;
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 6px;
+    background-color: white;
+}
+
+.solarisUl li:hover{
+    border: 3px solid #1e3e8b;
+}
+
+.solarisUl li a{
+    padding: 5px 15px 5px 15px;
+    border-radius: 35px/30px;
+    background-color: transparent !important;
+}
+
+.solarisBrand {
+    padding-top: 3px;
+}
+
+/* JUMBOTRON */
+
+.solarisJumbotron {
+    width: 100%;
+    background-color: #e8fcfa;
+    background-image: url("img/backgroundSolaris4.png");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.solarisJumbotron h1 {
+    padding: 15% 10% 15% 10%;
+}
+
+.heroText {
+    text-align: center;
+    background-color: #e8fcfa;
+}
+
+.heroText h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700 !important;
+    color:#34508b;
+}
+
+/* INTRO TEXT */
+
+.solarisIntroTxt p {
+    font-family: 'Montserrat', sans-serif;
+    color: #93ba86;
+    padding: 50px;
+    font-size: 16px;
+}
+
+.solarisIntroTxt {
+    background-color: #e8fcfa;
+}
+
+/* CALCULATOR */
+
+.calculateStart {
+    text-align: center;
+}
+
+.calculateBtn {
+    border-radius: 35px/30px;
+    border: 3px solid #34508b;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900 !important;
+    color: #34508b;
+}
+
+.calculateBtn:active, .calculateBtn:focus, .calculateBtn:hover {
+    border: 3px solid #1a308b;
+    background-color: white !important;
+}
+
+.calculateBtn:active:focus{
+    border: 3px solid #1a308b;
+    background-color: white !important;
+}
+
+.calculateBtn {
+    margin-top: 20px;
+}
+
+/* FACTS */
+.factsTitle {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.factsTitle h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700 !important;
+    color:#34508b;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #c7eae4;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.footer img {
+    margin-right: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+/* RESULT */
+
+.result{
+    margin: 40px 80px 40px 18%;
+}
+
+.panelsResultCurrency{
+    font-size: 35px;
+    padding: 10px 0;
+}
+
+.panelsResultCurrency img{
+    width: 30%;
+}
+
+.panelsResultCurrency2 img{
+    width: 10%;
+}
+.panelsResultCurrency2{
+    font-size: 35px;
+    padding: 10px 0 10px 30px;
+    font-weight: 900;
+}
+
+.textResult{
+    font-size: 25px;
+    text-align: center;
+    color: #93ba86;
+}
+
+.rectangle{
+    background-color: #34508b;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 35px;
+}
+
+.panelsResultNo{
+    font-size: 95px;
+}
+
+.chartContainer img{
+    float: right;
+}
+
+.calcHeading {
+    text-align: center;
+}
+
+.calcInput{
+    margin-top: 30px;
+}
+
+.switchRow{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.calcButtons {
+    text-align: center;
+}
+/* SLIDER */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 28px;
+}
+
+.switchTxt{
+    color: #34508b !important;
+    font-size: 14px !important;
+}
+
+.switch input {display:none;}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #34508b;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #34508b;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #34508b;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(62px);
+    -ms-transform: translateX(62px);
+    transform: translateX(62px);
+}
+
+.switchImg1{
+    z-index: 2;
+}
+/* MODAL BOX */
+
+.calculateBox {
+    border-radius: 35px/30px;
+    border: 3px solid #34508b;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    color: #34508b;
+    padding: 0px 50px 0px 50px;
+    max-height: 800px;
+}
+
+.calculateBox input {
+    border-radius: 35px/30px;
+    border: 3px solid #34508b;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    color: #34508b;
+    padding: 18px 25px 18px 25px;
+}
+
+.calculateBox span {
+    border-radius: 35px/30px;
+    border: 3px solid #34508b;
+    font-family: 'Montserrat', sans-serif;
+    color: #34508b;
+}
+
+.spanKwh {
+    background-color: white;
+}
+
+.calcButtons button{
+    border-radius: 35px/30px;
+    border: 3px solid #34508b;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    color: #34508b;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 5px 18px 5px 18px;
+}
+
+.switchRow {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.submitBtn {
+    float: right;
+}
+
+.advanceBtn {
+    float: left;
+}
+
+/* .modalExpanded {
+    height: 800px;
+    -moz-transition: height 1s ease;
+    -webkit-transition: height 1s ease;
+    -o-transition: height 1s ease;
+    transition: height 1s ease;
+}
+
+.modalRetracted {
+    height: 250px;
+    -moz-transition: height 1s ease;
+    -webkit-transition: height 1s ease;
+    -o-transition: height 1s ease;
+    transition: height 1s ease;
+} */
+
+.advanceBtnClicked {
+    background-color: #34508b !important;
+    color: white !important;
+    -moz-transition: background-color 1s ease;
+    -webkit-transition: background-color 1s ease;
+    -o-transition: background-color 1s ease;
+    transition: background-color 1s ease;
+
+    -moz-transition: color 1s ease;
+    -webkit-transition: color 1s ease;
+    -o-transition: color 1s ease;
+    transition: color 1s ease;
+}
+
+.advanceBtnBack {
+    background-color: white !important;
+    color: #34508b !important;
+    -moz-transition: background-color 1s ease;
+    -webkit-transition: background-color 1s ease;
+    -o-transition: background-color 1s ease;
+    transition: background-color 1s ease;
+
+    -moz-transition: color 1s ease;
+    -webkit-transition: color 1s ease;
+    -o-transition: color 1s ease;
+    transition: color 1s ease;
+}
+
+.advanceBox {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.hiddeAdvanced {
+    display: none;
+    opacity: 0;
+    -moz-transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+}
+
+.showAdvanced {
+    display: block;
+    -moz-transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+    opacity: 1;
+}
+
+.shadeTxt{
+    margin-bottom: 5px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #34508b;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.inputAdvanced{
+    margin-top: 25px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #34508b;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.dropdown button {
+    border-radius: 35px/30px;
+    border: 3px solid #34508b;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    color: #34508b;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 5px 18px 5px 18px;
+    width: 100%;
+    text-align: left;
+}
+
+open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    border-radius: 35px/30px;
+    border: 3px solid #34508b;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    color: #34508b !important;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 5px 18px 5px 18px;
+    width: 100%;
+}
+
+.dropdown ul {
+    border-radius: 35px/30px;
+    border: 3px solid #34508b;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    color: #34508b;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 5px 18px 5px 18px;
+    width: 100%;
+}
+
+/* SHADE SLIDER  */
+
+.rangeslider,
+.rangeslider__fill {
+    display: block;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+.rangeslider {
+    background: #e6e6e6;
+    position: relative;
+}
+.rangeslider--horizontal {
+    height: 14px;
+    width: 100%;
+}
+.rangeslider--disabled {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+    opacity: 0.4;
+}
+.rangeslider__fill {
+    background: #34508b;
+    position: absolute;
+}
+.rangeslider--horizontal .rangeslider__fill {
+    top: 2;
+    height: 100%;
+}
+.rangeslider__handle {
+    background: #34508b;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    line-height: 2.9em;
+    text-align: center;
+}
+.rangeslider__handle:before {
+    font-size: 11px;
+    opacity: 0.5;
+    margin: 0 3px;
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    bottom: 0;
+}
+.rangeslider__handle:after {
+    /* content: "%"; */
+    font-size: 11px;
+    opacity: 0.5;
+    margin: 0 3px;
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    bottom: 0;
+    float: right;
+}
+.rangeslider--horizontal .rangeslider__handle {
+    top: -15px;
+    touch-action: pan-y;
+    -ms-touch-action: pan-y;
+}
+input[type="range"]:focus + .rangeslider .rangeslider__handle {
+    -moz-box-shadow: 0 0 8px rgba(255, 0, 255, 0.9);
+    -webkit-box-shadow: 0 0 8px rgba(255, 0, 255, 0.9);
+    box-shadow: 0 0 8px rgba(255, 0, 255, 0.9);
+}
+
+/* DROPDOWN */
+
+.positionDropdown {
+    border-radius: 35px/30px;
+    border: 0px !important;
+}
+
+.selectPosition {
+    width: 100% !important;
+    border-radius: 35px/30px;
+    border: 3px solid #34508b;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    color: #34508b;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 3px 18px 3px 18px;
+    text-align: left;
+}
+
+.selectPosition:after {
+    border-radius: 35px/30px;
+}
+
+.selectPosition option {
+    border-radius: 35px/30px;
+}
+
+.carousel-control.left {
+    background-image: none !important;
+}
+
+.carousel-control.right {
+    background-image: none !important;
+}
